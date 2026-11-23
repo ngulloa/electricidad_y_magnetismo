@@ -1,0 +1,44 @@
+---
+title: "Flujo magnético, Faraday y Lenz"
+subtitle: "Unidad 2"
+---
+
+:::: {.reading}
+[Todas las unidades](index.qmd)
+
+## Concepto
+
+::: {.sheet}
+### Flujo magnético {#flujo}
+
+El flujo se mide en webers. Para campo uniforme y superficie plana, $\theta$ es el ángulo entre el campo y la normal al plano. Si el campo está en el plano, el flujo es cero.
+
+### Ley de Faraday y Lenz {#faraday}
+
+Para $N$ vueltas con igual flujo, la fem se mide en voltios y depende de la rapidez de cambio del flujo por vuelta. El campo inducido por la corriente se opone al cambio de flujo.
+
+### Corriente inducida {#ohm}
+
+Sirve en un lazo resistivo cerrado con autoinducción despreciable. Un signo negativo indica recorrido contrario al fijado por la normal.
+:::
+
+## Aplicación
+
+::: {.sheet}
+### Área fija
+
+Una espira de $0.020\,\mathrm{m^2}$ y $R=2.0\,\Omega$ tiene normal $+\hat z$. Si $B_z$ crece a $3.0\,\mathrm{T/s}$, $\mathcal E=-(0.020)(3.0)=-60\,\mathrm{mV}$ e $I=-30\,\mathrm{mA}$, horario visto desde $+z$.
+
+### Espira giratoria
+
+Diez vueltas de $0.010\,\mathrm{m^2}$ giran en $0.40\,\mathrm T$ con $\theta=5t$. El flujo por vuelta es $0.0040\cos(5t)\,\mathrm{Wb}$ y al derivarlo resulta $\mathcal E=0.20\sin(5t)\,\mathrm V$.
+:::
+
+::: {.actions}
+[Enviar una consulta](../consultas.html?tema=02){.action}
+
+[Practicar esta unidad](../ejercicios/02-faraday.qmd){.secondary}
+:::
+
+**Lectura de referencia.** Young y Freedman, *Física universitaria con física moderna*, vol. 2, 12.ª ed. (Pearson Educación, 2009), 29.1–29.3.
+::::

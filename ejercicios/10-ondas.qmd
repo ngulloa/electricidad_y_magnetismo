@@ -1,0 +1,36 @@
+---
+title: "Ondas electromagnéticas planas"
+subtitle: "Unidad 10 · Ejercicios"
+---
+
+::::: {.reading}
+[Todos los ejercicios](index.qmd) · [Repasar la unidad](../contenidos/10-ondas.qmd)
+
+:::: {.problem}
+## Interpretar la fase {#ejercicio-1}
+
+En un medio sin pérdidas, $\mathbf E=(45\,\mathrm{V/m})\cos(4y+6.0\times10^8t)\hat z$. Con $y$ en metros y $t$ en segundos, halle dirección, rapidez, frecuencia, longitud de onda y $\mathbf B$. Si $\mu=\mu_0$, halle $\epsilon/\epsilon_0$.
+
+::: {.pista}
+Mantenga $4y+\omega t$ fijo y siga cómo cambia $y$ al aumentar $t$.
+:::
+
+::: {.solucion}
+La onda va hacia $-y$. $v=\omega/k=1.50\times10^8\,\mathrm{m/s}$, $f\simeq95.5\,\mathrm{MHz}$ y $\lambda\simeq1.57\,\mathrm m$. Por $(-\hat y)\times\hat z=-\hat x$, $\mathbf B=-(3.0\times10^{-7}\,\mathrm T)\cos(4y+6.0\times10^8t)\hat x$. $\epsilon/\epsilon_0=(c/v)^2\simeq4.0$.
+:::
+::::
+
+:::: {.problem}
+## Polarización compatible con Maxwell {#ejercicio-2}
+
+En vacío sin fuentes, se propone $\mathbf E=(E_x\hat x+E_z\hat z)\cos(kz-\omega t)$ con $k,\omega>0$ y $E_x\ne0$. Use Gauss, Faraday y la ecuación de onda para hallar la componente prohibida, el campo magnético oscilante y $\omega(k)$.
+
+::: {.pista}
+En la divergencia sólo contribuye la derivada espacial de la componente longitudinal.
+:::
+
+::: {.solucion}
+$\nabla\cdot\mathbf E=-kE_z\sin(kz-\omega t)=0$ exige $E_z=0$. El rotor eléctrico es $-kE_x\sin(kz-\omega t)\hat y$, así que $\mathbf B=(kE_x/\omega)\cos(kz-\omega t)\hat y$. La ecuación de onda exige $k^2=\mu_0\epsilon_0\omega^2$ y $\omega=ck$.
+:::
+::::
+:::::

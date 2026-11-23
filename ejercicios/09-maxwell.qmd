@@ -1,0 +1,36 @@
+---
+title: "Maxwell y corriente de desplazamiento"
+subtitle: "Unidad 9 · Ejercicios"
+---
+
+::::: {.reading}
+[Todos los ejercicios](index.qmd) · [Repasar la unidad](../contenidos/09-maxwell.qmd)
+
+:::: {.problem}
+## Carga cuadrática en un capacitor {#ejercicio-1}
+
+Placas de radio $a$ se cargan según $Q=Q_0(t/T)^2$ durante $0\le t\le T$. En el régimen cuasiestático, suponga campo uniforme entre placas hacia $+z$ y bordes despreciables. Halle $I_{\rm d}$ y $B_\phi$ para $r<a$ y $r>a$. Evalúe para $t=T/2$ y $r=a/2$.
+
+::: {.pista}
+Use el área menor entre el disco de la placa y el círculo amperiano.
+:::
+
+::: {.solucion}
+$\dot Q=2Q_0t/T^2$. Dentro, $I_{\rm d}=\dot Q(r/a)^2$ y $B_\phi=\mu_0\dot Qr/(2\pi a^2)$. Fuera, $I_{\rm d}=\dot Q$ y $B_\phi=\mu_0\dot Q/(2\pi r)$. En el punto pedido, $I_{\rm d}=Q_0/(4T)$ y $B_\phi=\mu_0Q_0/(4\pi aT)$.
+:::
+::::
+
+:::: {.problem}
+## Campo eléctrico que oscila entre placas {#ejercicio-2}
+
+Sin conducción entre placas, suponga régimen cuasiestático y $\mathbf E=E_0\sin(\omega t)\hat z$ uniforme. Para un círculo de radio $r$ en esa región, halle $B_\phi(t)$ y evalúe en $0$ y $\pi/(2\omega)$.
+
+::: {.pista}
+La ley usa la derivada del flujo.
+:::
+
+::: {.solucion}
+$\Phi_E=E_0\pi r^2\sin(\omega t)$. De $I_{\rm d}=\epsilon_0\dot\Phi_E$ sale $B_\phi=\mu_0\epsilon_0rE_0\omega\cos(\omega t)/2$. En $0$ es máximo positivo mientras $E=0$. En $\pi/(2\omega)$ es cero mientras $E=E_0$.
+:::
+::::
+:::::

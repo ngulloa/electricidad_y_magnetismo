@@ -1,0 +1,48 @@
+---
+title: "Fundamentos de corriente alterna"
+subtitle: "Unidad 6"
+---
+
+:::: {.reading}
+[Todas las unidades](index.qmd)
+
+## Concepto
+
+::: {.sheet}
+### Frecuencia y período {#frecuencia}
+
+En $v=V_0\cos(\omega t+\phi)$, $V_0$ es la amplitud y $\phi$ la fase inicial. Cada ciclo dura $T$ segundos.
+
+### Valores eficaces {#rms}
+
+Para sinusoides de media cero, la raíz del promedio del cuadrado vale la amplitud sobre $\sqrt2$.
+
+### Ley de Ohm fasorial {#fasores}
+
+El fasor guarda amplitud y fase, $v=\operatorname{Re}(\widetilde V e^{i\omega t})$. Conserva la misma convención en todo el circuito.
+
+### Impedancias elementales {#impedancias}
+
+Respecto al voltaje, la corriente está en fase en $R$, atrasada $90^\circ$ en $L$ y adelantada $90^\circ$ en $C$. Las impedancias se miden en ohmios.
+:::
+
+## Aplicación
+
+::: {.sheet}
+### Resistor
+
+Para $v=12\cos(100t)\,\mathrm V$ y $R=6\,\Omega$, $\widetilde I=12/6=2\,\mathrm A$, $i=2\cos(100t)\,\mathrm A$ e $I_{\rm rms}=2/\sqrt2\simeq1.41\,\mathrm A$.
+
+### Capacitor
+
+Con la misma fuente y $C=1.0\,\mathrm{mF}$, $Z_C=-10i\,\Omega$, $\widetilde I=1.2i\,\mathrm A$ e $i=1.2\cos(100t+\pi/2)\,\mathrm A$.
+:::
+
+::: {.actions}
+[Enviar una consulta](../consultas.html?tema=06){.action}
+
+[Practicar esta unidad](../ejercicios/06-corriente-alterna.qmd){.secondary}
+:::
+
+**Lectura de referencia.** Young y Freedman, *Física universitaria con física moderna*, vol. 2, 12.ª ed. (Pearson Educación, 2009), 31.1–31.2.
+::::

@@ -1,0 +1,36 @@
+---
+title: "Ley de Ampère y magnetostática"
+subtitle: "Unidad 1 · Ejercicios"
+---
+
+::::: {.reading}
+[Todos los ejercicios](index.qmd) · [Repasar la unidad](../contenidos/01-ampere.qmd)
+
+:::: {.problem}
+## Dos conductores, cuatro regiones {#ejercicio-1}
+
+Un cable largo tiene un núcleo de radio $a$ con corriente axial uniforme $+I_0$, un aislante hasta $2a$ y una camisa uniforme entre $2a$ y $3a$ con corriente $-2I_0$. Halle $B_\phi$ en las cuatro regiones y el radio donde cambia de giro.
+
+::: {.pista}
+En la camisa, la fracción de corriente encerrada es la fracción del área anular hasta $r$.
+:::
+
+::: {.solucion}
+Con normal $+\hat z$, $B_\phi=\mu_0 I_{\rm enc}/(2\pi r)$. En el núcleo, $I_{\rm enc}=I_0r^2/a^2$; en el aislante $I_0$; en la camisa $I_0-2I_0(r^2-4a^2)/(5a^2)$; y fuera $-I_0$. Sustituir cada valor da las cuatro expresiones. Coinciden en las fronteras y cambian de signo en $r=a\sqrt{13/2}\simeq2.55a$.
+:::
+::::
+
+:::: {.problem}
+## Solenoides coaxiales {#ejercicio-2}
+
+Un devanado interior de $800$ vueltas por metro lleva $0.60\,\mathrm A$ y produce campo hacia $+z$. El exterior tiene $500$ vueltas por metro, $0.70\,\mathrm A$ y produce campo hacia $-z$. Halle los campos dentro de ambos, entre ellos y la corriente exterior que cancela el campo interior.
+
+::: {.pista}
+Suma los campos ideales con signo. Entre devanados sólo aporta el exterior.
+:::
+
+::: {.solucion}
+Dentro, $B_z=\mu_0(800\cdot0.60-500\cdot0.70)\simeq+163\,\mu\mathrm T$. Entre ellos, $B_z=-\mu_0(500)(0.70)\simeq-440\,\mu\mathrm T$. Para cancelar, $500I_2=800(0.60)$; sale $0.96\,\mathrm A$.
+:::
+::::
+:::::

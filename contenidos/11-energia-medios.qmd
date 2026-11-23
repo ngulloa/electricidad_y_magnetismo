@@ -1,0 +1,44 @@
+---
+title: "Energía y paso entre medios"
+subtitle: "Unidad 11"
+---
+
+:::: {.reading}
+[Todas las unidades](index.qmd)
+
+## Concepto
+
+::: {.sheet}
+### Energía y vector de Poynting {#poynting}
+
+En medio lineal, isótropo y no dispersivo, $u$ se mide en $\mathrm{J/m^3}$ y $\mathbf S$ en $\mathrm{W/m^2}$. El flujo saliente y el trabajo sobre cargas reducen la energía almacenada.
+
+### Intensidad media y potencia {#intensidad}
+
+En una onda plana sinusoidal progresiva, el promedio de $\cos^2$ vale $1/2$. Para un receptor inclinado, proyecta sobre la normal. Con ondas coherentes, suma campos antes de calcular potencia.
+
+### Impedancia y amplitudes en interfaz {#interfaz}
+
+Para incidencia normal sin pérdidas, ni corriente superficial, el campo eléctrico tangente cumple $E_i+E_r=E_t$ y el magnético tangente $(E_i-E_r)/\eta_1=E_t/\eta_2$. Las fracciones de potencia son $\mathcal R=r^2$ y $\mathcal T=(\eta_1/\eta_2)t^2$.
+:::
+
+## Aplicación
+
+::: {.sheet}
+### Receptor inclinado
+
+En vacío con $E_0=20\,\mathrm{V/m}$, la intensidad media es $400/(2\cdot377)\simeq0.531\,\mathrm{W/m^2}$. Un área de $0.30\,\mathrm{m^2}$ con normal a $60^\circ$ intercepta $0.531(0.30)\cos60^\circ\simeq0.080\,\mathrm W$.
+
+### Interfaz sin pérdidas
+
+Si $\eta_2=\eta_1/2$, $r=-1/3$, $t=2/3$, $\mathcal R=1/9$ y $\mathcal T=2(2/3)^2=8/9$. El signo de $r$ da inversión de fase del campo reflejado.
+:::
+
+::: {.actions}
+[Enviar una consulta](../consultas.html?tema=11){.action}
+
+[Practicar esta unidad](../ejercicios/11-energia-medios.qmd){.secondary}
+:::
+
+**Lectura de referencia.** Young y Freedman, *Física universitaria con física moderna*, vol. 2, 12.ª ed. (Pearson Educación, 2009), 32.4, 33.2 y 35.1–35.3.
+::::

@@ -1,0 +1,48 @@
+---
+title: "Inductancia y energía magnética"
+subtitle: "Unidad 4"
+---
+
+:::: {.reading}
+[Todas las unidades](index.qmd)
+
+## Concepto
+
+::: {.sheet}
+### Autoinductancia y fem propia {#propia}
+
+$\Lambda$ suma los flujos de todas las vueltas. Para geometría fija y medio lineal, es proporcional a $I$. La fem se opone a cambios de la corriente.
+
+### Inductancia y fem mutuas {#mutua}
+
+$\Lambda_{21}$ es el flujo concatenado en la bobina 2 debido a la 1. $M$ se mide en henrios y el signo depende de las referencias. En medios lineales recíprocos, $M_{12}=M_{21}$.
+
+### Energía magnética {#energia}
+
+La energía de un inductor lineal se puede calcular también integrando $u_B$ sobre el volumen del campo en un medio lineal.
+
+### Inductancia de un solenoide {#solenoide}
+
+Con $B\simeq\mu NI/\ell$ en el interior y área transversal $A$, se concatena $NBA$; dividir por $I$ da $L$.
+:::
+
+## Aplicación
+
+::: {.sheet}
+### Bobinas acopladas
+
+Con $M=15\,\mathrm{mH}$ y $\dot I_1=4.0\,\mathrm{A/s}$, $\mathcal E_2=-(0.015)(4.0)=-60\,\mathrm{mV}$ en las referencias elegidas.
+
+### Solenoide de aire
+
+Con $N=600$, $A=4.0\times10^{-4}\,\mathrm{m^2}$ y $\ell=0.30\,\mathrm m$, $L\simeq\mu_0N^2A/\ell=0.60\,\mathrm{mH}$. A $2.0\,\mathrm A$ almacena aproximadamente $1.2\,\mathrm{mJ}$.
+:::
+
+::: {.actions}
+[Enviar una consulta](../consultas.html?tema=04){.action}
+
+[Practicar esta unidad](../ejercicios/04-inductancia.qmd){.secondary}
+:::
+
+**Lectura de referencia.** Young y Freedman, *Física universitaria con física moderna*, vol. 2, 12.ª ed. (Pearson Educación, 2009), 30.1–30.3.
+::::

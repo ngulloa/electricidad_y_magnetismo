@@ -1,0 +1,44 @@
+---
+title: "Fem de movimiento y campo inducido"
+subtitle: "Unidad 3"
+---
+
+:::: {.reading}
+[Todas las unidades](index.qmd)
+
+## Concepto
+
+::: {.sheet}
+### Fem de movimiento {#fem}
+
+Cada tramo móvil aporta según la proyección de $\mathbf v\times\mathbf B$. Una barra paralela a ese vector, con $\mathbf v\perp\mathbf B$, aporta una fem de módulo $B\ell v$.
+
+### Fuerzas magnéticas {#fuerza}
+
+La primera fuerza actúa sobre una carga móvil; la segunda, sobre un tramo de conductor. En la segunda, el paso apunta con la corriente. La fuerza de Lorentz agrega $q\mathbf E$ a la primera.
+
+### Faraday para un lazo fijo {#campo}
+
+Un flujo magnético variable produce circulación eléctrica incluso sobre un camino imaginario. Con simetría cilíndrica, la circulación vale $2\pi r E_\phi$.
+:::
+
+## Aplicación
+
+::: {.sheet}
+### Barra sobre rieles
+
+Una barra de $0.30\,\mathrm m$ avanza a $2.0\,\mathrm{m/s}$, con campo perpendicular $0.50\,\mathrm T$ y $R=0.60\,\Omega$. $|\mathcal E|=0.30\,\mathrm V$, $I=0.50\,\mathrm A$ y el frenado es $I\ell B=0.075\,\mathrm N$. $F_Bv=I^2R=0.15\,\mathrm W$.
+
+### Lazo fijo en campo variable
+
+Con $\dot B_z=0.80\,\mathrm{T/s}$ en una región circular, a $r=0.10\,\mathrm m$ dentro de ella, $E_\phi=-\pi r^2\dot B_z/(2\pi r)=-0.040\,\mathrm{V/m}$.
+:::
+
+::: {.actions}
+[Enviar una consulta](../consultas.html?tema=03){.action}
+
+[Practicar esta unidad](../ejercicios/03-fem-movimiento.qmd){.secondary}
+:::
+
+**Lectura de referencia.** Young y Freedman, *Física universitaria con física moderna*, vol. 2, 12.ª ed. (Pearson Educación, 2009), 29.4–29.5.
+::::

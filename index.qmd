@@ -1,0 +1,49 @@
+---
+pagetitle: Electricidad y Magnetismo
+---
+
+::::: {.hero-eym}
+:::: {.hero-text}
+[Guía de estudio · FIS1533]{.kicker}
+
+# Electricidad y Magnetismo
+
+Comprende las leyes y practica cómo aplicarlas antes del examen.
+
+::: {.actions}
+[Explorar contenidos](contenidos/index.qmd){.action}
+
+[Ver fórmulas](formulas.qmd){.secondary}
+:::
+::::
+
+<figure class="figure-eym"><div class="field-eym" role="img" aria-label="La corriente sale del plano. En el extremo derecho de la trayectoria circular el campo es tangente y apunta hacia arriba."><span class="ring inner"></span><span class="ring middle"></span><span class="ring outer"></span><span class="wire" aria-hidden="true">⊙</span><span class="radius" aria-hidden="true"></span><span class="r-label" aria-hidden="true">r</span><span class="tangent" aria-hidden="true"><b>B</b></span></div><figcaption>Campo tangente alrededor de una corriente saliente.</figcaption></figure>
+:::::
+
+## Elige cómo estudiar
+
+:::: {.cards .portal}
+::: {.card-eym}
+[Fórmulas](formulas.qmd)
+
+Ecuaciones esenciales enlazadas a sus explicaciones.
+:::
+
+::: {.card-eym}
+[Contenidos](contenidos/index.qmd)
+
+11 unidades con conceptos y aplicaciones calculadas.
+:::
+
+::: {.card-eym}
+[Ejercicios](ejercicios/index.qmd)
+
+22 problemas originales con pistas y soluciones.
+:::
+
+::: {.card-eym}
+[Interacciones](interacciones.qmd)
+
+Espacio para futuras simulaciones.
+:::
+::::

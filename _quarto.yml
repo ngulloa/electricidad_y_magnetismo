@@ -1,0 +1,44 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - index.qmd
+    - formulas.qmd
+    - consultas.qmd
+    - interacciones.qmd
+    - contenidos/*.qmd
+    - ejercicios/*.qmd
+  resources:
+    - assets/
+lang: es
+website:
+  title: Electricidad y Magnetismo
+  navbar:
+    left:
+      - href: formulas.qmd
+        text: Fórmulas
+      - href: contenidos/index.qmd
+        text: Contenidos
+      - href: interacciones.qmd
+        text: Interacciones
+      - href: ejercicios/index.qmd
+        text: Ejercicios
+    right:
+      - href: consultas.qmd
+        text: Consultas
+  page-footer:
+    left: Nicolás Ulloa Gatica
+    right:
+      - text: Consultar por WhatsApp
+        href: https://wa.me/56974136418
+format:
+  html:
+    theme: default
+    css: assets/sitio.css
+    html-math-method: mathml
+    page-layout: full
+    anchor-sections: false
+filters:
+  - filtros/desplegables.lua
+execute:
+  enabled: false

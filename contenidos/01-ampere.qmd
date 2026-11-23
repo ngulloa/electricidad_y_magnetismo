@@ -1,0 +1,46 @@
+---
+title: "Ley de Ampère y magnetostática"
+subtitle: "Unidad 1"
+---
+
+:::: {.reading}
+[Todas las unidades](index.qmd)
+
+## Concepto
+
+::: {.sheet}
+### Corriente encerrada {#corriente}
+
+Si la densidad de corriente $\mathbf J$ es uniforme y la sección es plana, $I_{\rm enc}=JA\cos\theta$. El ángulo se mide respecto a la normal. La mano derecha relaciona la normal con el sentido del camino.
+
+### Ley de Ampère {#ampere}
+
+En magnetostática sólo contribuye la proyección de $\mathbf B$ sobre el paso tangente $d\boldsymbol\ell$. El coseno vale $1$, $0$ o $-1$ si apuntan igual, son perpendiculares o apuntan en sentidos opuestos. La corriente atraviesa la superficie y fija el giro con la regla de la mano derecha.
+
+### Hilo largo y solenoide {#simetria}
+
+Alrededor de un hilo largo elige un círculo centrado: $\mathbf B$ es tangente y de módulo constante. Para un solenoide largo, usa un rectángulo con un lado axial interior, dos lados transversales y un lado exterior de campo despreciable. $n$ son las vueltas por metro.
+
+<figure class="figure-eym"><div class="field-eym" role="img" aria-label="La corriente sale del plano. En el extremo derecho de la trayectoria circular el campo es tangente y apunta hacia arriba."><span class="ring inner"></span><span class="ring middle"></span><span class="ring outer"></span><span class="wire" aria-hidden="true">⊙</span><span class="radius" aria-hidden="true"></span><span class="r-label" aria-hidden="true">r</span><span class="tangent" aria-hidden="true"><b>B</b></span></div><figcaption>Campo tangente alrededor de una corriente saliente.</figcaption></figure>
+:::
+
+## Aplicación
+
+::: {.sheet}
+### Dentro de un hilo grueso
+
+Un cilindro de radio $2.0\,\mathrm{cm}$ lleva $8.0\,\mathrm A$ uniformemente hacia $+z$. A $r=1.0\,\mathrm{cm}$ se encierra $8.0(1/2)^2=2.0\,\mathrm A$ y $B_\phi=\mu_0(2.0)/(2\pi\cdot0.010)\simeq40\,\mu\mathrm T$, antihorario visto desde $+z$.
+
+### Dentro de un solenoide
+
+Con $n=800\,\mathrm{m^{-1}}$ e $I=0.50\,\mathrm A$, el rectángulo de largo axial $\ell$ encierra $n\ell$ vueltas. De $B\ell=\mu_0n\ell I$ sale $B\simeq5.0\times10^{-4}\,\mathrm T$.
+:::
+
+::: {.actions}
+[Enviar una consulta](../consultas.html?tema=01){.action}
+
+[Practicar esta unidad](../ejercicios/01-ampere.qmd){.secondary}
+:::
+
+**Lectura de referencia.** Young y Freedman, *Física universitaria con física moderna*, vol. 2, 12.ª ed. (Pearson Educación, 2009), 28.6–28.7.
+::::

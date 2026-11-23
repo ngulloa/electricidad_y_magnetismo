@@ -1,0 +1,44 @@
+---
+title: "Redes de CA, potencia y resonancia"
+subtitle: "Unidad 7"
+---
+
+:::: {.reading}
+[Todas las unidades](index.qmd)
+
+## Concepto
+
+::: {.sheet}
+### Serie y paralelo {#asociacion}
+
+En serie circula la misma corriente y se suman impedancias. En paralelo las ramas comparten voltaje y se suman admitancias.
+
+### Potencia media {#potencia}
+
+$\phi$ es la fase de voltaje menos la de corriente. Para un resistor, $\overline P=I_{\rm rms}^2R$. En inductores o capacitores ideales el promedio de cada ciclo es cero.
+
+### RLC serie y resonancia {#resonancia}
+
+Con voltaje y resistencia fijos, al cancelarse las reactancias $Z=R$ y la corriente de la fuente es máxima. En una red con ramas, analiza el módulo de la impedancia equivalente.
+:::
+
+## Aplicación
+
+::: {.sheet}
+### RL serie
+
+Con $Z=3+4i\,\Omega$ y $V_{\rm rms}=10\,\mathrm V$, el módulo es $5\,\Omega$, $I_{\rm rms}=2\,\mathrm A$ y $\overline P=(10)(2)(3/5)=12\,\mathrm W$.
+
+### RLC en resonancia
+
+Con $L=0.20\,\mathrm H$, $C=50\,\mu\mathrm F$, $\omega_0\simeq316\,\mathrm{rad/s}$. Con $R=10\,\Omega$ y $V_0=8\,\mathrm V$, $I_0=0.80\,\mathrm A$ y $\overline P=3.2\,\mathrm W$.
+:::
+
+::: {.actions}
+[Enviar una consulta](../consultas.html?tema=07){.action}
+
+[Practicar esta unidad](../ejercicios/07-redes-ca.qmd){.secondary}
+:::
+
+**Lectura de referencia.** Young y Freedman, *Física universitaria con física moderna*, vol. 2, 12.ª ed. (Pearson Educación, 2009), 31.3–31.5.
+::::

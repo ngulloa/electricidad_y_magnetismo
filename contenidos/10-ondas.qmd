@@ -1,0 +1,44 @@
+---
+title: "Ondas electromagnéticas planas"
+subtitle: "Unidad 10"
+---
+
+:::: {.reading}
+[Todas las unidades](index.qmd)
+
+## Concepto
+
+::: {.sheet}
+### Ecuación de onda {#onda}
+
+En un medio lineal, homogéneo, isótropo, no conductor y libre de fuentes, $\mathbf E$ y $\mathbf B$ siguen la misma ecuación de onda. $\nabla^2$ suma las segundas derivadas espaciales.
+
+### Rapidez y longitud de onda {#velocidad}
+
+La fase $\mathbf k\cdot\mathbf r-\omega t+\phi$ avanza en el sentido de $\mathbf k$. A tiempo fijo, puntos consecutivos de igual fase se separan por $\lambda$.
+
+### Campos transversales {#campos}
+
+Los campos son perpendiculares entre sí y a la propagación. En polarización lineal, $\mathbf E$ oscila en una dirección fija. $\mathbf E\times\mathbf B$ apunta con la onda.
+:::
+
+## Aplicación
+
+::: {.sheet}
+### Sentido de B
+
+Para una onda de vacío que viaja hacia $-x$ y $\mathbf E_0=60\hat y\,\mathrm{V/m}$, $(-\hat x)\times\hat y=-\hat z$ y $\mathbf B_0=-(60/c)\hat z=-2.0\times10^{-7}\hat z\,\mathrm T$.
+
+### Onda en un dieléctrico
+
+Con $\mu=\mu_0$ y $\epsilon=4\epsilon_0$, $v=c/2$. Para $f=75\,\mathrm{MHz}$, $\lambda=v/f=2.0\,\mathrm m$ y $k=\pi\,\mathrm{rad/m}$.
+:::
+
+::: {.actions}
+[Enviar una consulta](../consultas.html?tema=10){.action}
+
+[Practicar esta unidad](../ejercicios/10-ondas.qmd){.secondary}
+:::
+
+**Lectura de referencia.** Young y Freedman, *Física universitaria con física moderna*, vol. 2, 12.ª ed. (Pearson Educación, 2009), 32.2–32.3.
+::::

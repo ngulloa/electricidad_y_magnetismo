@@ -1,0 +1,36 @@
+---
+title: "Inductancia y energía magnética"
+subtitle: "Unidad 4 · Ejercicios"
+---
+
+::::: {.reading}
+[Todos los ejercicios](index.qmd) · [Repasar la unidad](../contenidos/04-inductancia.qmd)
+
+:::: {.problem}
+## Toroide y energía {#ejercicio-1}
+
+Un toroide de aire tiene $250$ vueltas, radios de $4.0$ y $7.0\,\mathrm{cm}$, altura $1.5\,\mathrm{cm}$ y $I=2.0\,\mathrm A$. Halle $L$ a partir del flujo y $U$ por integración de densidad. Desprecie el campo exterior.
+
+::: {.pista}
+Use $B=\mu_0NI/(2\pi r)$, $dA=h\,dr$ y $dV=2\pi rh\,dr$.
+:::
+
+::: {.solucion}
+Integrar $Bh\,dr$ entre los radios da $\Phi=\mu_0NIh\ln(b/a)/(2\pi)$. Luego $L=N\Phi/I\simeq105\,\mu\mathrm H$. Integrar $u_B\,dV$ da $\mu_0N^2I^2h\ln(b/a)/(4\pi)=LI^2/2\simeq210\,\mu\mathrm J$.
+:::
+::::
+
+:::: {.problem}
+## Espiras en oposición {#ejercicio-2}
+
+Un solenoide largo de aire de radio $2.0\,\mathrm{cm}$ tiene $1200$ vueltas por metro. Se conectan dos espiras coaxiales en serie, de radio $3.0\,\mathrm{cm}$ con normal $+\hat z$ y de $1.0\,\mathrm{cm}$ con normal $-\hat z$. Para $I_1>0$, $B$ apunta hacia $+z$. Halle $M$ y la fem cuando $\dot I_1=-8.0\,\mathrm{A/s}$.
+
+::: {.pista}
+La espira grande intercepta campo sobre la sección del solenoide. Reste el flujo de la más pequeña.
+:::
+
+::: {.solucion}
+$M=\mu_0(1200)\pi[(0.020)^2-(0.010)^2]\simeq1.42\,\mu\mathrm H$. $\mathcal E_2=-M(-8.0)\simeq+11.4\,\mu\mathrm V$.
+:::
+::::
+:::::

@@ -1,0 +1,44 @@
+---
+title: "Circuitos RL, LC y RLC libres"
+subtitle: "Unidad 5"
+---
+
+:::: {.reading}
+[Todas las unidades](index.qmd)
+
+## Concepto
+
+::: {.sheet}
+### Transitorio RL {#rl}
+
+En una malla RL con fem constante, $L\dot I+RI=\mathcal E$. La corriente se mantiene continua al conmutar con voltaje finito y se aproxima a $I_\infty=\mathcal E/R$.
+
+### Oscilación LC {#lc}
+
+El capacitor y el inductor se intercambian energía. Con $I=\dot q$, la ecuación resulta de $L\ddot q+q/C=0$.
+
+### RLC serie libre {#rlc}
+
+Si $\alpha<\omega_0$, la carga oscila a $\omega_{\rm d}=\sqrt{\omega_0^2-\alpha^2}$ con envolvente $e^{-\alpha t}$. La igualdad es el caso crítico. Para $\alpha>\omega_0$, la respuesta es sobreamortiguada.
+:::
+
+## Aplicación
+
+::: {.sheet}
+### Crecimiento RL
+
+Para $L=0.12\,\mathrm H$, $R=6.0\,\Omega$ y fuente $12\,\mathrm V$, $\tau=0.020\,\mathrm s$ e $I_\infty=2.0\,\mathrm A$. Desde $I_0=0$, al cabo de $\tau$ circulan $2(1-e^{-1})\simeq1.26\,\mathrm A$.
+
+### Clasificar una descarga
+
+Si $L=0.10\,\mathrm H$ y $C=100\,\mu\mathrm F$, $\omega_0\simeq316\,\mathrm{rad/s}$. Para $R=20\,\Omega$, $\alpha=100\,\mathrm{s^{-1}}$ y $\omega_{\rm d}=300\,\mathrm{rad/s}$. Si $R=80\,\Omega$, $\alpha=400\,\mathrm{s^{-1}}$ y no hay oscilaciones.
+:::
+
+::: {.actions}
+[Enviar una consulta](../consultas.html?tema=05){.action}
+
+[Practicar esta unidad](../ejercicios/05-transitorios.qmd){.secondary}
+:::
+
+**Lectura de referencia.** Young y Freedman, *Física universitaria con física moderna*, vol. 2, 12.ª ed. (Pearson Educación, 2009), 30.4–30.6.
+::::

@@ -1,0 +1,36 @@
+---
+title: "Redes de CA, potencia y resonancia"
+subtitle: "Unidad 7 · Ejercicios"
+---
+
+::::: {.reading}
+[Todos los ejercicios](index.qmd) · [Repasar la unidad](../contenidos/07-redes-ca.qmd)
+
+:::: {.problem}
+## Resistor en serie con un paralelo RC {#ejercicio-1}
+
+Una fuente $v=20\cos(500t)\,\mathrm V$ alimenta $4\,\Omega$ en serie con el paralelo de $6\,\Omega$ y un capacitor de reactancia de módulo $6\,\Omega$. Halle $Z_{\rm eq}$, $i(t)$ y la potencia media.
+
+::: {.pista}
+Sume las admitancias del paralelo e invierta el resultado.
+:::
+
+::: {.solucion}
+$Y_{\rm p}=(1+i)/6\,\mathrm S$, por tanto $Z_{\rm eq}=4+3-3i=7-3i\,\Omega$. Sale $i=(20/\sqrt{58})\cos[500t+\arctan(3/7)]\,\mathrm A$. $\overline P=7(20/\sqrt{116})^2\,\mathrm W\simeq24.1\,\mathrm W$.
+:::
+::::
+
+:::: {.problem}
+## Sintonizar con dos capacitores {#ejercicio-2}
+
+Una fuente $v=16\cos(500t)\,\mathrm V$ alimenta $R=8.0\,\Omega$ y $L=0.040\,\mathrm H$ en serie con dos capacitores en paralelo. Uno mide $40\,\mu\mathrm F$. Halle el otro para maximizar la corriente y calcule potencia media.
+
+::: {.pista}
+Sume capacitancias en el paralelo y anule la reactancia serie.
+:::
+
+::: {.solucion}
+$C_{\rm eq}=1/(500^2\cdot0.040)=100\,\mu\mathrm F$. Se necesitan $60\,\mu\mathrm F$. $I_0=16/8=2.0\,\mathrm A$ y $\overline P=I_0^2R/2=16\,\mathrm W$.
+:::
+::::
+:::::

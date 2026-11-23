@@ -1,0 +1,36 @@
+---
+title: "Fem de movimiento y campo inducido"
+subtitle: "Unidad 3 · Ejercicios"
+---
+
+::::: {.reading}
+[Todos los ejercicios](index.qmd) · [Repasar la unidad](../contenidos/03-fem-movimiento.qmd)
+
+:::: {.problem}
+## Rieles inclinados y rapidez terminal {#ejercicio-1}
+
+Una barra de $0.060\,\mathrm{kg}$ y $0.25\,\mathrm m$ desliza sin roce por rieles a $30^\circ$. El campo es $0.80\,\mathrm T$ perpendicular al plano y $R=0.20\,\Omega$. Desprecie autoinducción. Halle $I(v)$, rapidez terminal y potencia disipada allí.
+
+::: {.pista}
+Iguale el frenado a $mg\sin30^\circ$.
+:::
+
+::: {.solucion}
+$I=B\ell v/R$ y $F_B=B^2\ell^2v/R$. Por tanto $v_{\rm t}=mgR\sin30^\circ/(B^2\ell^2)\simeq1.47\,\mathrm{m/s}$, $I_{\rm t}\simeq1.47\,\mathrm A$ y $I_{\rm t}^2R\simeq0.433\,\mathrm W$.
+:::
+::::
+
+:::: {.problem}
+## Campo creciente hacia el borde {#ejercicio-2}
+
+En un disco de radio $a$, $B_z=\beta t(r/a)^2$ con $\beta>0$. Fuera vale cero. Halle $E_\phi(r)$ y compruebe continuidad en $a$.
+
+::: {.pista}
+Use un anillo $dA=2\pi s\,ds$ hasta $\min(r,a)$.
+:::
+
+::: {.solucion}
+$\dot\Phi_B=\pi\beta\min(r,a)^4/(2a^2)$. De Faraday, $E_\phi=-\beta r^3/(4a^2)$ dentro y $-\beta a^2/(4r)$ fuera. Coinciden en $-\beta a/4$, horario visto desde $+z$.
+:::
+::::
+:::::

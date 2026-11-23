@@ -1,0 +1,36 @@
+---
+title: "Energía y paso entre medios"
+subtitle: "Unidad 11 · Ejercicios"
+---
+
+::::: {.reading}
+[Todos los ejercicios](index.qmd) · [Repasar la unidad](../contenidos/11-energia-medios.qmd)
+
+:::: {.problem}
+## Dos antenas coherentes y un panel {#ejercicio-1}
+
+Dos ondas planas viajan en vacío hacia $+z$, con campos eléctricos de igual polarización lineal y amplitud $30\,\mathrm{V/m}$, separados $120^\circ$ en fase. Halle amplitud resultante, intensidad y potencia media en un panel de $0.20\,\mathrm{m^2}$ cuya normal está a $45^\circ$ de $+z$.
+
+::: {.pista}
+Sume $30$ y $30e^{i2\pi/3}$ como amplitudes complejas.
+:::
+
+::: {.solucion}
+La suma tiene amplitud $E_0=\sqrt{30^2+30^2+2(30)^2\cos120^\circ}=30\,\mathrm{V/m}$. Entonces $\langle S\rangle=30^2/(2\eta_0)\simeq1.19\,\mathrm{W/m^2}$ y $P=1.19(0.20)\cos45^\circ\simeq0.169\,\mathrm W$.
+:::
+::::
+
+:::: {.problem}
+## Reflexión desde un dieléctrico hacia el vacío {#ejercicio-2}
+
+Una onda incide normalmente desde un dieléctrico no magnético, sin pérdidas y con $\epsilon=9\epsilon_0$ hacia el vacío. La amplitud incidente vale $24\,\mathrm{V/m}$. Determine $r$, $t$, ambas amplitudes y las fracciones de potencia.
+
+::: {.pista}
+En el dieléctrico $\eta_1=\eta_0/3$. Para comparar potencias divide cada cuadrado de amplitud por su impedancia.
+:::
+
+::: {.solucion}
+Resultan $r=1/2$, $t=3/2$, $E_r=12\,\mathrm{V/m}$ y $E_t=36\,\mathrm{V/m}$. $\mathcal R=1/4$ y $\mathcal T=(1/3)(3/2)^2=3/4$. La suma es uno.
+:::
+::::
+:::::

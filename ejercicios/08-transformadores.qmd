@@ -1,0 +1,36 @@
+---
+title: "Transformadores"
+subtitle: "Unidad 8 · Ejercicios"
+---
+
+::::: {.reading}
+[Todos los ejercicios](index.qmd) · [Repasar la unidad](../contenidos/08-transformadores.qmd)
+
+:::: {.problem}
+## Dimensionar un transformador {#ejercicio-1}
+
+Una fuente de $48\,\mathrm V$ eficaces alimenta un primario de $480$ vueltas. Se requieren $18\,\mathrm W$ en una carga de $18\,\Omega$. Halle el número de vueltas secundarias, ambas corrientes y la carga reflejada.
+
+::: {.pista}
+Use primero $P=V_{2,\rm rms}^2/R$.
+:::
+
+::: {.solucion}
+$V_2=\sqrt{18\cdot18}=18\,\mathrm V$ e $I_2=1.0\,\mathrm A$. Luego $N_2=480(18/48)=180$, $I_1=18/48=0.375\,\mathrm A$ y $R_{\rm vista}=128\,\Omega$.
+:::
+::::
+
+:::: {.problem}
+## Fem con acoplamiento incompleto {#ejercicio-2}
+
+Dos bobinas tienen $L_1=80\,\mathrm{mH}$, $L_2=20\,\mathrm{mH}$ y $k=0.75$. El secundario está abierto. Con $M>0$ e $I_1=0.40\cos(500t)\,\mathrm A$, encuentre $M$ y la fem. ¿Cuál sería la amplitud con $k=1$?
+
+::: {.pista}
+Aplique Faraday al flujo concatenado $MI_1$.
+:::
+
+::: {.solucion}
+$M=0.75\sqrt{0.080(0.020)}=0.030\,\mathrm H$. $\mathcal E_2=6.0\sin(500t)\,\mathrm V$. Si $k=1$, $M=0.040\,\mathrm H$ y la amplitud sube a $8.0\,\mathrm V$.
+:::
+::::
+:::::

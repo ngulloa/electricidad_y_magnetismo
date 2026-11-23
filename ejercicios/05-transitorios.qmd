@@ -1,0 +1,36 @@
+---
+title: "Circuitos RL, LC y RLC libres"
+subtitle: "Unidad 5 · Ejercicios"
+---
+
+::::: {.reading}
+[Todos los ejercicios](index.qmd) · [Repasar la unidad](../contenidos/05-transitorios.qmd)
+
+:::: {.problem}
+## Bobina entre dos mallas {#ejercicio-1}
+
+Un inductor de $0.24\,\mathrm H$ está en régimen permanente con $8.0\,\Omega$ y $24\,\mathrm V$. Al conmutar se descarga por $12\,\Omega$. Halle $I(t)$, tiempo para bajar a $0.75\,\mathrm A$ y calor total de descarga.
+
+::: {.pista}
+La corriente al conmutar es continua y la energía del inductor se vuelve calor.
+:::
+
+::: {.solucion}
+$I_0=24/8=3.0\,\mathrm A$ y $\tau=0.24/12=0.020\,\mathrm s$. Resulta $I(t)=(3.0\,\mathrm A)e^{-t/\tau}$ y $t=\tau\ln4\simeq27.7\,\mathrm{ms}$. $U_L=LI_0^2/2=1.08\,\mathrm J$.
+:::
+::::
+
+:::: {.problem}
+## Capacitor cargado en RLC {#ejercicio-2}
+
+Un RLC serie sin fuente tiene $L=0.10\,\mathrm H$, $C=100\,\mu\mathrm F$, $R=20\,\Omega$, $q(0)=0.50\,\mathrm{mC}$ e $I(0)=0$. Halle la carga, determine si cambia de polaridad y compare con la frecuencia angular del LC.
+
+::: {.pista}
+Pruebe $q=e^{-\alpha t}(A\cos\omega_{\rm d}t+B\sin\omega_{\rm d}t)$ y use $\dot q(0)=0$.
+:::
+
+::: {.solucion}
+$\alpha=100\,\mathrm{s^{-1}}$, $\omega_{\rm d}=300\,\mathrm{rad/s}$ y $\omega_0\simeq316\,\mathrm{rad/s}$. Como $-\alpha A+\omega_{\rm d}B=0$, $q=(0.50\,\mathrm{mC})e^{-100t}[\cos(300t)+\sin(300t)/3]$. En $t=\pi/300\,\mathrm s$ es negativa.
+:::
+::::
+:::::

@@ -1,0 +1,36 @@
+---
+title: "Fundamentos de corriente alterna"
+subtitle: "Unidad 6 · Ejercicios"
+---
+
+::::: {.reading}
+[Todos los ejercicios](index.qmd) · [Repasar la unidad](../contenidos/06-corriente-alterna.qmd)
+
+:::: {.problem}
+## Corriente de un inductor {#ejercicio-1}
+
+Un inductor ideal de $0.050\,\mathrm H$ se conecta a $v=18\cos(240t+\pi/6)\,\mathrm V$. Halle frecuencia, $I_{\rm rms}$ e $i(t)$.
+
+::: {.pista}
+Dividir por $i\omega L$ resta $\pi/2$ a la fase.
+:::
+
+::: {.solucion}
+$f=240/(2\pi)\simeq38.2\,\mathrm{Hz}$, $Z_L=12i\,\Omega$ e $I_0=1.50\,\mathrm A$. Por tanto $I_{\rm rms}=1.06\,\mathrm A$ e $i=1.50\cos(240t-\pi/3)\,\mathrm A$.
+:::
+::::
+
+:::: {.problem}
+## Reconocer un componente {#ejercicio-2}
+
+Se aplica $v=10\cos(500t)\,\mathrm V$ a un elemento ideal y se mide $i=0.25\cos(500t+\pi/2)\,\mathrm A$. Identifique su parámetro y la amplitud de corriente al duplicar $\omega$.
+
+::: {.pista}
+Divida el fasor de voltaje por el de corriente.
+:::
+
+::: {.solucion}
+$Z=10/(0.25i)=-40i\,\Omega$. Es un capacitor con $C=1/(500\cdot40)=50\,\mu\mathrm F$. Si se duplica $\omega$ con el mismo voltaje, la amplitud de corriente pasa a $0.50\,\mathrm A$.
+:::
+::::
+:::::

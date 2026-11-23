@@ -1,0 +1,44 @@
+---
+title: "Transformadores"
+subtitle: "Unidad 8"
+---
+
+:::: {.reading}
+[Todas las unidades](index.qmd)
+
+## Concepto
+
+::: {.sheet}
+### Razones de voltaje y corriente {#razones}
+
+El primario recibe energía y el secundario la entrega. Para el transformador ideal, las razones corresponden a magnitudes, con amplitudes o eficaces consistentes.
+
+### Potencia y resistencia reflejada {#carga}
+
+La potencia activa se conserva en el modelo ideal. Para carga resistiva $P=V_{\rm rms}I_{\rm rms}$. La razón de resistencias resulta de dividir las razones de voltaje y corriente.
+
+### Factor de acoplamiento {#acoplamiento}
+
+Para acoplamiento perfecto $k=1$. Con secundario abierto y $M$ constante, la fem mutua orientada es $\mathcal E_2=-M\dot I_1$.
+:::
+
+## Aplicación
+
+::: {.sheet}
+### Reducir voltaje
+
+Con $N_1=1000$, $N_2=100$ y $V_{1,\rm rms}=120\,\mathrm V$, se obtienen $12\,\mathrm V$. Una carga de $6\,\Omega$ toma $2.0\,\mathrm A$ y el primario toma $0.20\,\mathrm A$. Se transfieren $24\,\mathrm W$.
+
+### Carga reflejada
+
+Si $N_1/N_2=3$ y la carga mide $20\,\Omega$, la fuente ve $3^2(20)=180\,\Omega$. Con $90\,\mathrm V$ eficaces circulan $0.50\,\mathrm A$ en el primario.
+:::
+
+::: {.actions}
+[Enviar una consulta](../consultas.html?tema=08){.action}
+
+[Practicar esta unidad](../ejercicios/08-transformadores.qmd){.secondary}
+:::
+
+**Lectura de referencia.** Young y Freedman, *Física universitaria con física moderna*, vol. 2, 12.ª ed. (Pearson Educación, 2009), 31.6.
+::::

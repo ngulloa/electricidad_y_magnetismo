@@ -1,0 +1,274 @@
+---
+title: "Fórmulas"
+subtitle: "Formulario de examen · Cada nombre lleva a su explicación"
+---
+
+::: {.jump}
+[Unidad 1](#unidad-1)
+[Unidad 2](#unidad-2)
+[Unidad 3](#unidad-3)
+[Unidad 4](#unidad-4)
+[Unidad 5](#unidad-5)
+[Unidad 6](#unidad-6)
+[Unidad 7](#unidad-7)
+[Unidad 8](#unidad-8)
+[Unidad 9](#unidad-9)
+[Unidad 10](#unidad-10)
+[Unidad 11](#unidad-11)
+:::
+
+**Constantes.** $\mu_0\simeq4\pi\times10^{-7}\,\mathrm{H/m}$, $\epsilon_0\simeq8.85\times10^{-12}\,\mathrm{F/m}$, $c\simeq3.00\times10^8\,\mathrm{m/s}$ y $\eta_0\simeq377\,\Omega$.
+
+## 1. Ley de Ampère y magnetostática {#unidad-1}
+
+:::: {.formula-grid}
+::: {.formula-card}
+[Corriente encerrada](contenidos/01-ampere.qmd#corriente)
+
+$\displaystyle I_{\rm enc}=\int_S\mathbf J\cdot d\mathbf A$
+:::
+
+::: {.formula-card}
+[Ley de Ampère](contenidos/01-ampere.qmd#ampere)
+
+$\displaystyle \oint_C\mathbf B\cdot d\boldsymbol\ell=\mu_0 I_{\rm enc}$
+:::
+
+::: {.formula-card}
+[Hilo largo y solenoide](contenidos/01-ampere.qmd#simetria)
+
+$\displaystyle B_{\rm hilo}=\frac{\mu_0 I}{2\pi r},\quad B_{\rm sol}\simeq\mu_0 nI$
+:::
+::::
+
+## 2. Flujo magnético, Faraday y Lenz {#unidad-2}
+
+:::: {.formula-grid}
+::: {.formula-card}
+[Flujo magnético](contenidos/02-faraday.qmd#flujo)
+
+$\displaystyle \Phi_B=\int_S\mathbf B\cdot d\mathbf A,\quad\Phi_B=BA\cos\theta$
+:::
+
+::: {.formula-card}
+[Ley de Faraday y Lenz](contenidos/02-faraday.qmd#faraday)
+
+$\displaystyle \mathcal E=-N\frac{d\Phi_B}{dt}$
+:::
+
+::: {.formula-card}
+[Corriente inducida](contenidos/02-faraday.qmd#ohm)
+
+$\displaystyle I=\frac{\mathcal E}{R}$
+:::
+::::
+
+## 3. Fem de movimiento y campo inducido {#unidad-3}
+
+:::: {.formula-grid}
+::: {.formula-card}
+[Fem de movimiento](contenidos/03-fem-movimiento.qmd#fem)
+
+$\displaystyle \mathcal E_{\rm mov}=\oint_C(\mathbf v\times\mathbf B)\cdot d\boldsymbol\ell$
+:::
+
+::: {.formula-card}
+[Fuerzas magnéticas](contenidos/03-fem-movimiento.qmd#fuerza)
+
+$\displaystyle \mathbf F_B=q\mathbf v\times\mathbf B,\quad d\mathbf F=I\,d\boldsymbol\ell\times\mathbf B$
+:::
+
+::: {.formula-card}
+[Faraday para un lazo fijo](contenidos/03-fem-movimiento.qmd#campo)
+
+$\displaystyle \oint_C\mathbf E\cdot d\boldsymbol\ell=-\frac{d\Phi_B}{dt}$
+:::
+::::
+
+## 4. Inductancia y energía magnética {#unidad-4}
+
+:::: {.formula-grid}
+::: {.formula-card}
+[Autoinductancia y fem propia](contenidos/04-inductancia.qmd#propia)
+
+$\displaystyle L=\frac{\Lambda_{\rm propia}}{I},\quad \mathcal E_L=-L\dot I$
+:::
+
+::: {.formula-card}
+[Inductancia y fem mutuas](contenidos/04-inductancia.qmd#mutua)
+
+$\displaystyle M=\frac{\Lambda_{21}}{I_1},\quad\mathcal E_2=-M\dot I_1$
+:::
+
+::: {.formula-card}
+[Energía magnética](contenidos/04-inductancia.qmd#energia)
+
+$\displaystyle U_L=\frac{LI^2}{2},\quad u_B=\frac{B^2}{2\mu}$
+:::
+
+::: {.formula-card}
+[Inductancia de un solenoide](contenidos/04-inductancia.qmd#solenoide)
+
+$\displaystyle L\simeq\frac{\mu N^2A}{\ell}$
+:::
+::::
+
+## 5. Circuitos RL, LC y RLC libres {#unidad-5}
+
+:::: {.formula-grid}
+::: {.formula-card}
+[Transitorio RL](contenidos/05-transitorios.qmd#rl)
+
+$\displaystyle \tau=\frac LR,\quad I(t)=I_\infty+(I_0-I_\infty)e^{-t/\tau}$
+:::
+
+::: {.formula-card}
+[Oscilación LC](contenidos/05-transitorios.qmd#lc)
+
+$\displaystyle \ddot q+\omega_0^2q=0,\quad\omega_0=\frac1{\sqrt{LC}}$
+:::
+
+::: {.formula-card}
+[RLC serie libre](contenidos/05-transitorios.qmd#rlc)
+
+$\displaystyle L\ddot q+R\dot q+\frac qC=0,\quad\alpha=\frac R{2L}$
+:::
+::::
+
+## 6. Fundamentos de corriente alterna {#unidad-6}
+
+:::: {.formula-grid}
+::: {.formula-card}
+[Frecuencia y período](contenidos/06-corriente-alterna.qmd#frecuencia)
+
+$\displaystyle f=\frac1T,\quad\omega=2\pi f$
+:::
+
+::: {.formula-card}
+[Valores eficaces](contenidos/06-corriente-alterna.qmd#rms)
+
+$\displaystyle V_{\rm rms}=\frac{V_0}{\sqrt2},\quad I_{\rm rms}=\frac{I_0}{\sqrt2}$
+:::
+
+::: {.formula-card}
+[Ley de Ohm fasorial](contenidos/06-corriente-alterna.qmd#fasores)
+
+$\displaystyle \widetilde V=Z\widetilde I$
+:::
+
+::: {.formula-card}
+[Impedancias elementales](contenidos/06-corriente-alterna.qmd#impedancias)
+
+$\displaystyle Z_R=R,\quad Z_L=i\omega L,\quad Z_C=\frac1{i\omega C}$
+:::
+::::
+
+## 7. Redes de CA, potencia y resonancia {#unidad-7}
+
+:::: {.formula-grid}
+::: {.formula-card}
+[Serie y paralelo](contenidos/07-redes-ca.qmd#asociacion)
+
+$\displaystyle Z_{\rm s}=\sum_jZ_j,\quad Z_{\rm p}^{-1}=\sum_jZ_j^{-1}$
+:::
+
+::: {.formula-card}
+[Potencia media](contenidos/07-redes-ca.qmd#potencia)
+
+$\displaystyle \overline P=V_{\rm rms}I_{\rm rms}\cos\phi$
+:::
+
+::: {.formula-card}
+[RLC serie y resonancia](contenidos/07-redes-ca.qmd#resonancia)
+
+$\displaystyle Z=R+i\left(\omega L-\frac1{\omega C}\right),\quad\omega_0=\frac1{\sqrt{LC}}$
+:::
+::::
+
+## 8. Transformadores {#unidad-8}
+
+:::: {.formula-grid}
+::: {.formula-card}
+[Razones de voltaje y corriente](contenidos/08-transformadores.qmd#razones)
+
+$\displaystyle \frac{V_2}{V_1}=\frac{N_2}{N_1},\quad\frac{I_2}{I_1}=\frac{N_1}{N_2}$
+:::
+
+::: {.formula-card}
+[Potencia y resistencia reflejada](contenidos/08-transformadores.qmd#carga)
+
+$\displaystyle P_1=P_2,\quad R_{\rm vista}=\left(\frac{N_1}{N_2}\right)^2R_{\rm carga}$
+:::
+
+::: {.formula-card}
+[Factor de acoplamiento](contenidos/08-transformadores.qmd#acoplamiento)
+
+$\displaystyle M^2=k^2L_1L_2,\quad 0\le k\le1$
+:::
+::::
+
+## 9. Maxwell y corriente de desplazamiento {#unidad-9}
+
+:::: {.formula-grid}
+::: {.formula-card}
+[Leyes de Gauss](contenidos/09-maxwell.qmd#gauss)
+
+$\displaystyle \nabla\cdot\mathbf E=\rho/\epsilon_0,\quad\nabla\cdot\mathbf B=0$
+:::
+
+::: {.formula-card}
+[Ecuaciones de rotor](contenidos/09-maxwell.qmd#rotor)
+
+$\displaystyle \nabla\times\mathbf E=-\partial_t\mathbf B,\quad\nabla\times\mathbf B=\mu_0\mathbf J+\mu_0\epsilon_0\partial_t\mathbf E$
+:::
+
+::: {.formula-card}
+[Corriente de desplazamiento](contenidos/09-maxwell.qmd#desplazamiento)
+
+$\displaystyle \oint_C\mathbf B\cdot d\boldsymbol\ell=\mu_0(I_{\rm cond}+I_{\rm d}),\quad I_{\rm d}=\epsilon_0\frac{d\Phi_E}{dt}$
+:::
+::::
+
+## 10. Ondas electromagnéticas planas {#unidad-10}
+
+:::: {.formula-grid}
+::: {.formula-card}
+[Ecuación de onda](contenidos/10-ondas.qmd#onda)
+
+$\displaystyle \nabla^2\mathbf E=\mu\epsilon\,\partial_t^2\mathbf E$
+:::
+
+::: {.formula-card}
+[Rapidez y longitud de onda](contenidos/10-ondas.qmd#velocidad)
+
+$\displaystyle v=\frac1{\sqrt{\mu\epsilon}},\quad \omega=vk,\quad\lambda=\frac vf=\frac{2\pi}k$
+:::
+
+::: {.formula-card}
+[Campos transversales](contenidos/10-ondas.qmd#campos)
+
+$\displaystyle \mathbf B_0=\frac{\mathbf k\times\mathbf E_0}{\omega}=\frac{\hat{\mathbf k}\times\mathbf E_0}{v}$
+:::
+::::
+
+## 11. Energía y paso entre medios {#unidad-11}
+
+:::: {.formula-grid}
+::: {.formula-card}
+[Energía y vector de Poynting](contenidos/11-energia-medios.qmd#poynting)
+
+$\displaystyle u=\frac12\left(\epsilon E^2+\frac{B^2}{\mu}\right),\quad\mathbf S=\frac{\mathbf E\times\mathbf B}{\mu}$
+:::
+
+::: {.formula-card}
+[Intensidad media y potencia](contenidos/11-energia-medios.qmd#intensidad)
+
+$\displaystyle \langle S\rangle=\frac{E_0^2}{2\eta},\quad P=\int_A\mathbf S\cdot d\mathbf A$
+:::
+
+::: {.formula-card}
+[Impedancia y amplitudes en interfaz](contenidos/11-energia-medios.qmd#interfaz)
+
+$\displaystyle \eta=\sqrt{\frac{\mu}{\epsilon}},\quad r=\frac{\eta_2-\eta_1}{\eta_2+\eta_1},\quad t=1+r$
+:::
+::::

@@ -1,0 +1,36 @@
+---
+title: "Flujo magnético, Faraday y Lenz"
+subtitle: "Unidad 2 · Ejercicios"
+---
+
+::::: {.reading}
+[Todos los ejercicios](index.qmd) · [Repasar la unidad](../contenidos/02-faraday.qmd)
+
+:::: {.problem}
+## Una espira cruza una franja estrecha {#ejercicio-1}
+
+Una espira de ancho $0.40\,\mathrm m$ y altura $0.15\,\mathrm m$ va hacia $+x$ a $0.50\,\mathrm{m/s}$. En $t=0$ su frente toca $x=0$. Sólo para $0<x<0.20\,\mathrm m$ hay $B=0.60\,\mathrm T$ hacia $-z$. Tome normal $+\hat z$ y $R=3.0\,\Omega$. Halle fem, corriente y sentido por etapa.
+
+::: {.pista}
+La franja queda completamente cubierta durante un intervalo.
+:::
+
+::: {.solucion}
+Los cruces son a $0.40$, $0.80$ y $1.20\,\mathrm s$. Con solapamiento $\ell$, $\mathcal E=Bh\dot\ell$. Al ingresar, $\mathcal E=+45\,\mathrm{mV}$ e $I=+15\,\mathrm{mA}$ antihorario. Durante cobertura constante, ambos cero. Al salir, $\mathcal E=-45\,\mathrm{mV}$ e $I=-15\,\mathrm{mA}$ horario. Tras salir, cero. En los cruces ideales, usa límites laterales.
+:::
+::::
+
+:::: {.problem}
+## Giro con fase inicial {#ejercicio-2}
+
+Una bobina de $80$ vueltas de área $0.0060\,\mathrm{m^2}$ gira en $0.25\,\mathrm T$ con $\theta=20t+\pi/3$. Con $R=12\,\Omega$, halle la fem, corriente inicial y primer cero de corriente después del inicio.
+
+::: {.pista}
+Derive $BA\cos\theta$ y encuentre el primer múltiplo de $\pi$ alcanzado por $\theta$.
+:::
+
+::: {.solucion}
+$\mathcal E=80(0.0060)(0.25)(20)\sin(20t+\pi/3)=2.40\sin(20t+\pi/3)\,\mathrm V$. En $t=0$, $I=0.173\,\mathrm A$. El primer cero satisface $20t+\pi/3=\pi$, así que $t=\pi/30\simeq0.105\,\mathrm s$.
+:::
+::::
+:::::

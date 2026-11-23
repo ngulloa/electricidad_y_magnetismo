@@ -1,0 +1,30 @@
+---
+title: "Enviar una consulta"
+subtitle: "Nicolás Ulloa Gatica"
+include-after-body: _includes/consulta.html
+---
+
+::: {.reading}
+<form id="consulta" class="contact-card">
+<label for="tema">Tema</label><select id="tema" required><option value="">Selecciona una unidad</option><option value="01">Ley de Ampère y magnetostática - Unidad 1</option>
+<option value="02">Flujo magnético, Faraday y Lenz - Unidad 2</option>
+<option value="03">Fem de movimiento y campo inducido - Unidad 3</option>
+<option value="04">Inductancia y energía magnética - Unidad 4</option>
+<option value="05">Circuitos RL, LC y RLC libres - Unidad 5</option>
+<option value="06">Fundamentos de corriente alterna - Unidad 6</option>
+<option value="07">Redes de CA, potencia y resonancia - Unidad 7</option>
+<option value="08">Transformadores - Unidad 8</option>
+<option value="09">Maxwell y corriente de desplazamiento - Unidad 9</option>
+<option value="10">Ondas electromagnéticas planas - Unidad 10</option>
+<option value="11">Energía y paso entre medios - Unidad 11</option></select>
+<label for="nombre">Nombre</label><input id="nombre" autocomplete="name" maxlength="120" required>
+<label for="correo">Correo institucional UC</label><input id="correo" type="email" autocomplete="email" autocapitalize="none" spellcheck="false" maxlength="254" required placeholder="nombre@estudiante.uc.cl" aria-describedby="ayuda-correo">
+<small id="ayuda-correo">Acepta @uc.cl, @puc.cl y subdominios como @estudiante.uc.cl.</small>
+<label for="pregunta">Pregunta</label><textarea id="pregunta" rows="5" maxlength="700" required></textarea>
+<div class="actions"><button class="action" type="submit" disabled>Preparar correo</button><a class="secondary" href="https://wa.me/56974136418">Consultar por WhatsApp</a></div>
+<p>Selecciona tu cuenta institucional al enviar el borrador desde tu aplicación de correo.</p>
+<p id="estado" role="status" hidden></p>
+<div id="vista" hidden><label for="borrador">Borrador</label><textarea id="borrador" rows="8" readonly></textarea><button class="secondary" type="button" id="copiar">Copiar borrador</button></div>
+<noscript><p>Activa JavaScript para preparar el correo o usa WhatsApp.</p></noscript>
+</form>
+:::

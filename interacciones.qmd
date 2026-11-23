@@ -1,0 +1,8 @@
+---
+title: "Interacciones"
+subtitle: "Simulaciones y exploraciones"
+---
+
+::: {.sheet}
+Próximamente.
+:::
