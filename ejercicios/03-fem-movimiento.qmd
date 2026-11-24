@@ -16,7 +16,7 @@ Iguale el frenado a $mg\sin30^\circ$.
 :::
 
 ::: {.solucion}
-$I=B\ell v/R$ y $F_B=B^2\ell^2v/R$. Por tanto $v_{\rm t}=mgR\sin30^\circ/(B^2\ell^2)\simeq1.47\,\mathrm{m/s}$, $I_{\rm t}\simeq1.47\,\mathrm A$ y $I_{\rm t}^2R\simeq0.433\,\mathrm W$.
+$I=B\ell v/R$ y $F_B=B^2\ell^2v/R$. Por tanto $v_{\mathrm{t}}=mgR\sin30^\circ/(B^2\ell^2)\simeq1.47\,\mathrm{m/s}$, $I_{\mathrm{t}}\simeq1.47\,\mathrm A$ y $I_{\mathrm{t}}^2R\simeq0.433\,\mathrm W$.
 :::
 ::::
 

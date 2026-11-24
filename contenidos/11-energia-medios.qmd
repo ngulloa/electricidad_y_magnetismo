@@ -11,13 +11,25 @@ subtitle: "Unidad 11"
 ::: {.sheet}
 ### Energía y vector de Poynting {#poynting}
 
+$$
+u=\frac12\left(\epsilon E^2+\frac{B^2}{\mu}\right),\quad\mathbf S=\frac{\mathbf E\times\mathbf B}{\mu}
+$$
+
 En medio lineal, isótropo y no dispersivo, $u$ se mide en $\mathrm{J/m^3}$ y $\mathbf S$ en $\mathrm{W/m^2}$. El flujo saliente y el trabajo sobre cargas reducen la energía almacenada.
 
 ### Intensidad media y potencia {#intensidad}
 
+$$
+\langle S\rangle=\frac{E_0^2}{2\eta},\quad P=\int_A\mathbf S\cdot d\mathbf A
+$$
+
 En una onda plana sinusoidal progresiva, el promedio de $\cos^2$ vale $1/2$. Para un receptor inclinado, proyecta sobre la normal. Con ondas coherentes, suma campos antes de calcular potencia.
 
 ### Impedancia y amplitudes en interfaz {#interfaz}
+
+$$
+\eta=\sqrt{\frac{\mu}{\epsilon}},\quad r=\frac{\eta_2-\eta_1}{\eta_2+\eta_1},\quad t=1+r
+$$
 
 Para incidencia normal sin pérdidas, ni corriente superficial, el campo eléctrico tangente cumple $E_i+E_r=E_t$ y el magnético tangente $(E_i-E_r)/\eta_1=E_t/\eta_2$. Las fracciones de potencia son $\mathcal R=r^2$ y $\mathcal T=(\eta_1/\eta_2)t^2$.
 :::

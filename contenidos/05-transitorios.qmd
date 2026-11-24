@@ -11,15 +11,27 @@ subtitle: "Unidad 5"
 ::: {.sheet}
 ### Transitorio RL {#rl}
 
+$$
+\tau=\frac LR,\quad I(t)=I_\infty+(I_0-I_\infty)e^{-t/\tau}
+$$
+
 En una malla RL con fem constante, $L\dot I+RI=\mathcal E$. La corriente se mantiene continua al conmutar con voltaje finito y se aproxima a $I_\infty=\mathcal E/R$.
 
 ### Oscilación LC {#lc}
+
+$$
+\ddot q+\omega_0^2q=0,\quad\omega_0=\frac1{\sqrt{LC}}
+$$
 
 El capacitor y el inductor se intercambian energía. Con $I=\dot q$, la ecuación resulta de $L\ddot q+q/C=0$.
 
 ### RLC serie libre {#rlc}
 
-Si $\alpha<\omega_0$, la carga oscila a $\omega_{\rm d}=\sqrt{\omega_0^2-\alpha^2}$ con envolvente $e^{-\alpha t}$. La igualdad es el caso crítico. Para $\alpha>\omega_0$, la respuesta es sobreamortiguada.
+$$
+L\ddot q+R\dot q+\frac qC=0,\quad\alpha=\frac R{2L}
+$$
+
+Si $\alpha<\omega_0$, la carga oscila a $\omega_{\mathrm{d}}=\sqrt{\omega_0^2-\alpha^2}$ con envolvente $e^{-\alpha t}$. La igualdad es el caso crítico. Para $\alpha>\omega_0$, la respuesta es sobreamortiguada.
 :::
 
 ## Aplicación
@@ -31,7 +43,7 @@ Para $L=0.12\,\mathrm H$, $R=6.0\,\Omega$ y fuente $12\,\mathrm V$, $\tau=0.020\
 
 ### Clasificar una descarga
 
-Si $L=0.10\,\mathrm H$ y $C=100\,\mu\mathrm F$, $\omega_0\simeq316\,\mathrm{rad/s}$. Para $R=20\,\Omega$, $\alpha=100\,\mathrm{s^{-1}}$ y $\omega_{\rm d}=300\,\mathrm{rad/s}$. Si $R=80\,\Omega$, $\alpha=400\,\mathrm{s^{-1}}$ y no hay oscilaciones.
+Si $L=0.10\,\mathrm H$ y $C=100\,\mu\mathrm F$, $\omega_0\simeq316\,\mathrm{rad/s}$. Para $R=20\,\Omega$, $\alpha=100\,\mathrm{s^{-1}}$ y $\omega_{\mathrm{d}}=300\,\mathrm{rad/s}$. Si $R=80\,\Omega$, $\alpha=400\,\mathrm{s^{-1}}$ y no hay oscilaciones.
 :::
 
 ::: {.actions}

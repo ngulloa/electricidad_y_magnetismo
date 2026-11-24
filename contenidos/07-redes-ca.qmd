@@ -11,13 +11,25 @@ subtitle: "Unidad 7"
 ::: {.sheet}
 ### Serie y paralelo {#asociacion}
 
+$$
+Z_{\mathrm{s}}=\sum_jZ_j,\quad Z_{\mathrm{p}}^{-1}=\sum_jZ_j^{-1}
+$$
+
 En serie circula la misma corriente y se suman impedancias. En paralelo las ramas comparten voltaje y se suman admitancias.
 
 ### Potencia media {#potencia}
 
-$\phi$ es la fase de voltaje menos la de corriente. Para un resistor, $\overline P=I_{\rm rms}^2R$. En inductores o capacitores ideales el promedio de cada ciclo es cero.
+$$
+\overline P=V_{\mathrm{rms}}I_{\mathrm{rms}}\cos\phi
+$$
+
+$\phi$ es la fase de voltaje menos la de corriente. Para un resistor, $\overline P=I_{\mathrm{rms}}^2R$. En inductores o capacitores ideales el promedio de cada ciclo es cero.
 
 ### RLC serie y resonancia {#resonancia}
+
+$$
+Z=R+i\left(\omega L-\frac1{\omega C}\right),\quad\omega_0=\frac1{\sqrt{LC}}
+$$
 
 Con voltaje y resistencia fijos, al cancelarse las reactancias $Z=R$ y la corriente de la fuente es máxima. En una red con ramas, analiza el módulo de la impedancia equivalente.
 :::
@@ -27,7 +39,7 @@ Con voltaje y resistencia fijos, al cancelarse las reactancias $Z=R$ y la corrie
 ::: {.sheet}
 ### RL serie
 
-Con $Z=3+4i\,\Omega$ y $V_{\rm rms}=10\,\mathrm V$, el módulo es $5\,\Omega$, $I_{\rm rms}=2\,\mathrm A$ y $\overline P=(10)(2)(3/5)=12\,\mathrm W$.
+Con $Z=3+4i\,\Omega$ y $V_{\mathrm{rms}}=10\,\mathrm V$, el módulo es $5\,\Omega$, $I_{\mathrm{rms}}=2\,\mathrm A$ y $\overline P=(10)(2)(3/5)=12\,\mathrm W$.
 
 ### RLC en resonancia
 

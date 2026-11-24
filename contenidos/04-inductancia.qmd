@@ -11,17 +11,33 @@ subtitle: "Unidad 4"
 ::: {.sheet}
 ### Autoinductancia y fem propia {#propia}
 
+$$
+L=\frac{\Lambda_{\mathrm{propia}}}{I},\quad \mathcal E_L=-L\dot I
+$$
+
 $\Lambda$ suma los flujos de todas las vueltas. Para geometría fija y medio lineal, es proporcional a $I$. La fem se opone a cambios de la corriente.
 
 ### Inductancia y fem mutuas {#mutua}
+
+$$
+M=\frac{\Lambda_{21}}{I_1},\quad\mathcal E_2=-M\dot I_1
+$$
 
 $\Lambda_{21}$ es el flujo concatenado en la bobina 2 debido a la 1. $M$ se mide en henrios y el signo depende de las referencias. En medios lineales recíprocos, $M_{12}=M_{21}$.
 
 ### Energía magnética {#energia}
 
+$$
+U_L=\frac{LI^2}{2},\quad u_B=\frac{B^2}{2\mu}
+$$
+
 La energía de un inductor lineal se puede calcular también integrando $u_B$ sobre el volumen del campo en un medio lineal.
 
 ### Inductancia de un solenoide {#solenoide}
+
+$$
+L\simeq\frac{\mu N^2A}{\ell}
+$$
 
 Con $B\simeq\mu NI/\ell$ en el interior y área transversal $A$, se concatena $NBA$; dividir por $I$ da $L$.
 :::

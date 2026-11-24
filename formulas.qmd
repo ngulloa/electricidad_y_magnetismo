@@ -25,19 +25,19 @@ subtitle: "Formulario de examen · Cada nombre lleva a su explicación"
 ::: {.formula-card}
 [Corriente encerrada](contenidos/01-ampere.qmd#corriente)
 
-$\displaystyle I_{\rm enc}=\int_S\mathbf J\cdot d\mathbf A$
+$\displaystyle I_{\mathrm{enc}}=\int_S\mathbf J\cdot d\mathbf A$
 :::
 
 ::: {.formula-card}
 [Ley de Ampère](contenidos/01-ampere.qmd#ampere)
 
-$\displaystyle \oint_C\mathbf B\cdot d\boldsymbol\ell=\mu_0 I_{\rm enc}$
+$\displaystyle \oint_C\mathbf B\cdot d\boldsymbol\ell=\mu_0 I_{\mathrm{enc}}$
 :::
 
 ::: {.formula-card}
 [Hilo largo y solenoide](contenidos/01-ampere.qmd#simetria)
 
-$\displaystyle B_{\rm hilo}=\frac{\mu_0 I}{2\pi r},\quad B_{\rm sol}\simeq\mu_0 nI$
+$\displaystyle B_{\mathrm{hilo}}=\frac{\mu_0 I}{2\pi r},\quad B_{\mathrm{sol}}\simeq\mu_0 nI$
 :::
 ::::
 
@@ -69,7 +69,7 @@ $\displaystyle I=\frac{\mathcal E}{R}$
 ::: {.formula-card}
 [Fem de movimiento](contenidos/03-fem-movimiento.qmd#fem)
 
-$\displaystyle \mathcal E_{\rm mov}=\oint_C(\mathbf v\times\mathbf B)\cdot d\boldsymbol\ell$
+$\displaystyle \mathcal E_{\mathrm{mov}}=\oint_C(\mathbf v\times\mathbf B)\cdot d\boldsymbol\ell$
 :::
 
 ::: {.formula-card}
@@ -91,7 +91,7 @@ $\displaystyle \oint_C\mathbf E\cdot d\boldsymbol\ell=-\frac{d\Phi_B}{dt}$
 ::: {.formula-card}
 [Autoinductancia y fem propia](contenidos/04-inductancia.qmd#propia)
 
-$\displaystyle L=\frac{\Lambda_{\rm propia}}{I},\quad \mathcal E_L=-L\dot I$
+$\displaystyle L=\frac{\Lambda_{\mathrm{propia}}}{I},\quad \mathcal E_L=-L\dot I$
 :::
 
 ::: {.formula-card}
@@ -147,7 +147,7 @@ $\displaystyle f=\frac1T,\quad\omega=2\pi f$
 ::: {.formula-card}
 [Valores eficaces](contenidos/06-corriente-alterna.qmd#rms)
 
-$\displaystyle V_{\rm rms}=\frac{V_0}{\sqrt2},\quad I_{\rm rms}=\frac{I_0}{\sqrt2}$
+$\displaystyle V_{\mathrm{rms}}=\frac{V_0}{\sqrt2},\quad I_{\mathrm{rms}}=\frac{I_0}{\sqrt2}$
 :::
 
 ::: {.formula-card}
@@ -169,13 +169,13 @@ $\displaystyle Z_R=R,\quad Z_L=i\omega L,\quad Z_C=\frac1{i\omega C}$
 ::: {.formula-card}
 [Serie y paralelo](contenidos/07-redes-ca.qmd#asociacion)
 
-$\displaystyle Z_{\rm s}=\sum_jZ_j,\quad Z_{\rm p}^{-1}=\sum_jZ_j^{-1}$
+$\displaystyle Z_{\mathrm{s}}=\sum_jZ_j,\quad Z_{\mathrm{p}}^{-1}=\sum_jZ_j^{-1}$
 :::
 
 ::: {.formula-card}
 [Potencia media](contenidos/07-redes-ca.qmd#potencia)
 
-$\displaystyle \overline P=V_{\rm rms}I_{\rm rms}\cos\phi$
+$\displaystyle \overline P=V_{\mathrm{rms}}I_{\mathrm{rms}}\cos\phi$
 :::
 
 ::: {.formula-card}
@@ -197,7 +197,7 @@ $\displaystyle \frac{V_2}{V_1}=\frac{N_2}{N_1},\quad\frac{I_2}{I_1}=\frac{N_1}{N
 ::: {.formula-card}
 [Potencia y resistencia reflejada](contenidos/08-transformadores.qmd#carga)
 
-$\displaystyle P_1=P_2,\quad R_{\rm vista}=\left(\frac{N_1}{N_2}\right)^2R_{\rm carga}$
+$\displaystyle P_1=P_2,\quad R_{\mathrm{vista}}=\left(\frac{N_1}{N_2}\right)^2R_{\mathrm{carga}}$
 :::
 
 ::: {.formula-card}
@@ -225,7 +225,7 @@ $\displaystyle \nabla\times\mathbf E=-\partial_t\mathbf B,\quad\nabla\times\math
 ::: {.formula-card}
 [Corriente de desplazamiento](contenidos/09-maxwell.qmd#desplazamiento)
 
-$\displaystyle \oint_C\mathbf B\cdot d\boldsymbol\ell=\mu_0(I_{\rm cond}+I_{\rm d}),\quad I_{\rm d}=\epsilon_0\frac{d\Phi_E}{dt}$
+$\displaystyle \oint_C\mathbf B\cdot d\boldsymbol\ell=\mu_0(I_{\mathrm{cond}}+I_{\mathrm{d}}),\quad I_{\mathrm{d}}=\epsilon_0\frac{d\Phi_E}{dt}$
 :::
 ::::
 

@@ -12,11 +12,11 @@ subtitle: "Unidad 8 · Ejercicios"
 Una fuente de $48\,\mathrm V$ eficaces alimenta un primario de $480$ vueltas. Se requieren $18\,\mathrm W$ en una carga de $18\,\Omega$. Halle el número de vueltas secundarias, ambas corrientes y la carga reflejada.
 
 ::: {.pista}
-Use primero $P=V_{2,\rm rms}^2/R$.
+Use primero $P=V_{2,\mathrm{rms}}^2/R$.
 :::
 
 ::: {.solucion}
-$V_2=\sqrt{18\cdot18}=18\,\mathrm V$ e $I_2=1.0\,\mathrm A$. Luego $N_2=480(18/48)=180$, $I_1=18/48=0.375\,\mathrm A$ y $R_{\rm vista}=128\,\Omega$.
+$V_2=\sqrt{18\cdot18}=18\,\mathrm V$ e $I_2=1.0\,\mathrm A$. Luego $N_2=480(18/48)=180$, $I_1=18/48=0.375\,\mathrm A$ y $R_{\mathrm{vista}}=128\,\Omega$.
 :::
 ::::
 

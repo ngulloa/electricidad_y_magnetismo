@@ -11,13 +11,25 @@ subtitle: "Unidad 1"
 ::: {.sheet}
 ### Corriente encerrada {#corriente}
 
-Si la densidad de corriente $\mathbf J$ es uniforme y la sección es plana, $I_{\rm enc}=JA\cos\theta$. El ángulo se mide respecto a la normal. La mano derecha relaciona la normal con el sentido del camino.
+$$
+I_{\mathrm{enc}}=\int_S\mathbf J\cdot d\mathbf A
+$$
+
+Si la densidad de corriente $\mathbf J$ es uniforme y la sección es plana, $I_{\mathrm{enc}}=JA\cos\theta$. El ángulo se mide respecto a la normal. La mano derecha relaciona la normal con el sentido del camino.
 
 ### Ley de Ampère {#ampere}
+
+$$
+\oint_C\mathbf B\cdot d\boldsymbol\ell=\mu_0 I_{\mathrm{enc}}
+$$
 
 En magnetostática sólo contribuye la proyección de $\mathbf B$ sobre el paso tangente $d\boldsymbol\ell$. El coseno vale $1$, $0$ o $-1$ si apuntan igual, son perpendiculares o apuntan en sentidos opuestos. La corriente atraviesa la superficie y fija el giro con la regla de la mano derecha.
 
 ### Hilo largo y solenoide {#simetria}
+
+$$
+B_{\mathrm{hilo}}=\frac{\mu_0 I}{2\pi r},\quad B_{\mathrm{sol}}\simeq\mu_0 nI
+$$
 
 Alrededor de un hilo largo elige un círculo centrado: $\mathbf B$ es tangente y de módulo constante. Para un solenoide largo, usa un rectángulo con un lado axial interior, dos lados transversales y un lado exterior de campo despreciable. $n$ son las vueltas por metro.
 

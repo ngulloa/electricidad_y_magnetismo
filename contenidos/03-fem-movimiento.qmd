@@ -11,13 +11,25 @@ subtitle: "Unidad 3"
 ::: {.sheet}
 ### Fem de movimiento {#fem}
 
+$$
+\mathcal E_{\mathrm{mov}}=\oint_C(\mathbf v\times\mathbf B)\cdot d\boldsymbol\ell
+$$
+
 Cada tramo móvil aporta según la proyección de $\mathbf v\times\mathbf B$. Una barra paralela a ese vector, con $\mathbf v\perp\mathbf B$, aporta una fem de módulo $B\ell v$.
 
 ### Fuerzas magnéticas {#fuerza}
 
+$$
+\mathbf F_B=q\mathbf v\times\mathbf B,\quad d\mathbf F=I\,d\boldsymbol\ell\times\mathbf B
+$$
+
 La primera fuerza actúa sobre una carga móvil; la segunda, sobre un tramo de conductor. En la segunda, el paso apunta con la corriente. La fuerza de Lorentz agrega $q\mathbf E$ a la primera.
 
 ### Faraday para un lazo fijo {#campo}
+
+$$
+\oint_C\mathbf E\cdot d\boldsymbol\ell=-\frac{d\Phi_B}{dt}
+$$
 
 Un flujo magnético variable produce circulación eléctrica incluso sobre un camino imaginario. Con simetría cilíndrica, la circulación vale $2\pi r E_\phi$.
 :::

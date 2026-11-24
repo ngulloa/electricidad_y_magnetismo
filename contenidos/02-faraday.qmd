@@ -11,13 +11,25 @@ subtitle: "Unidad 2"
 ::: {.sheet}
 ### Flujo magnético {#flujo}
 
+$$
+\Phi_B=\int_S\mathbf B\cdot d\mathbf A,\quad\Phi_B=BA\cos\theta
+$$
+
 El flujo se mide en webers. Para campo uniforme y superficie plana, $\theta$ es el ángulo entre el campo y la normal al plano. Si el campo está en el plano, el flujo es cero.
 
 ### Ley de Faraday y Lenz {#faraday}
 
+$$
+\mathcal E=-N\frac{d\Phi_B}{dt}
+$$
+
 Para $N$ vueltas con igual flujo, la fem se mide en voltios y depende de la rapidez de cambio del flujo por vuelta. El campo inducido por la corriente se opone al cambio de flujo.
 
 ### Corriente inducida {#ohm}
+
+$$
+I=\frac{\mathcal E}{R}
+$$
 
 Sirve en un lazo resistivo cerrado con autoinducción despreciable. Un signo negativo indica recorrido contrario al fijado por la normal.
 :::

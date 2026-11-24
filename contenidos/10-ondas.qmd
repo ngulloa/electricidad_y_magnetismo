@@ -11,13 +11,25 @@ subtitle: "Unidad 10"
 ::: {.sheet}
 ### Ecuación de onda {#onda}
 
+$$
+\nabla^2\mathbf E=\mu\epsilon\,\partial_t^2\mathbf E
+$$
+
 En un medio lineal, homogéneo, isótropo, no conductor y libre de fuentes, $\mathbf E$ y $\mathbf B$ siguen la misma ecuación de onda. $\nabla^2$ suma las segundas derivadas espaciales.
 
 ### Rapidez y longitud de onda {#velocidad}
 
+$$
+v=\frac1{\sqrt{\mu\epsilon}},\quad \omega=vk,\quad\lambda=\frac vf=\frac{2\pi}k
+$$
+
 La fase $\mathbf k\cdot\mathbf r-\omega t+\phi$ avanza en el sentido de $\mathbf k$. A tiempo fijo, puntos consecutivos de igual fase se separan por $\lambda$.
 
 ### Campos transversales {#campos}
+
+$$
+\mathbf B_0=\frac{\mathbf k\times\mathbf E_0}{\omega}=\frac{\hat{\mathbf k}\times\mathbf E_0}{v}
+$$
 
 Los campos son perpendiculares entre sí y a la propagación. En polarización lineal, $\mathbf E$ oscila en una dirección fija. $\mathbf E\times\mathbf B$ apunta con la onda.
 :::

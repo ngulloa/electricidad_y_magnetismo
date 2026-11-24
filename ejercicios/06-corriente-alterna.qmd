@@ -9,14 +9,14 @@ subtitle: "Unidad 6 · Ejercicios"
 :::: {.problem}
 ## Corriente de un inductor {#ejercicio-1}
 
-Un inductor ideal de $0.050\,\mathrm H$ se conecta a $v=18\cos(240t+\pi/6)\,\mathrm V$. Halle frecuencia, $I_{\rm rms}$ e $i(t)$.
+Un inductor ideal de $0.050\,\mathrm H$ se conecta a $v=18\cos(240t+\pi/6)\,\mathrm V$. Halle frecuencia, $I_{\mathrm{rms}}$ e $i(t)$.
 
 ::: {.pista}
 Dividir por $i\omega L$ resta $\pi/2$ a la fase.
 :::
 
 ::: {.solucion}
-$f=240/(2\pi)\simeq38.2\,\mathrm{Hz}$, $Z_L=12i\,\Omega$ e $I_0=1.50\,\mathrm A$. Por tanto $I_{\rm rms}=1.06\,\mathrm A$ e $i=1.50\cos(240t-\pi/3)\,\mathrm A$.
+$f=240/(2\pi)\simeq38.2\,\mathrm{Hz}$, $Z_L=12i\,\Omega$ e $I_0=1.50\,\mathrm A$. Por tanto $I_{\mathrm{rms}}=1.06\,\mathrm A$ e $i=1.50\cos(240t-\pi/3)\,\mathrm A$.
 :::
 ::::
 

@@ -27,7 +27,7 @@ p{margin:0 0 .82rem}img{max-width:100%}
 .card-eym{position:relative;border-top:3px solid #e5c365}.card-eym:hover{border-color:#c6a74e}.card-eym:focus-within{outline:3px solid #99721b}
 .card-eym a,.formula-card a{font-weight:750}.card-eym a::after{content:"";position:absolute;inset:0}
 .card-eym p:last-child,.formula-card p:last-child,.sheet p:last-child{margin-bottom:0}
-.formula-card{border-left:3px solid #e5c365}.formula-card p:last-child,.math-scroll,p:has(math[display=block]){overflow-x:auto}
+.formula-card{border-left:3px solid #e5c365}.formula-card p:last-child,.math-scroll,p:has(math){overflow-x:auto}
 .reading{max-width:54rem;margin:0 auto 2rem}.reading .problem,.reading .sheet,.cards+.sheet{margin-bottom:1rem}.cards+.sheet{margin-top:1rem}
 .sheet h3:first-child,.sheet section:first-child h3,.problem h2:first-child{margin-top:0}
 .problem h2{font-size:clamp(1.26rem,3vw,1.55rem)}.problem details{border:1px solid #ebdcb1;border-radius:.56rem;background:#fff9e8;margin:.55rem 0}

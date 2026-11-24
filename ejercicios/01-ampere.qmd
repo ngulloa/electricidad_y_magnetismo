@@ -16,7 +16,7 @@ En la camisa, la fracción de corriente encerrada es la fracción del área anul
 :::
 
 ::: {.solucion}
-Con normal $+\hat z$, $B_\phi=\mu_0 I_{\rm enc}/(2\pi r)$. En el núcleo, $I_{\rm enc}=I_0r^2/a^2$; en el aislante $I_0$; en la camisa $I_0-2I_0(r^2-4a^2)/(5a^2)$; y fuera $-I_0$. Sustituir cada valor da las cuatro expresiones. Coinciden en las fronteras y cambian de signo en $r=a\sqrt{13/2}\simeq2.55a$.
+Con normal $+\hat z$, $B_\phi=\mu_0 I_{\mathrm{enc}}/(2\pi r)$. En el núcleo, $I_{\mathrm{enc}}=I_0r^2/a^2$; en el aislante $I_0$; en la camisa $I_0-2I_0(r^2-4a^2)/(5a^2)$; y fuera $-I_0$. Sustituir cada valor da las cuatro expresiones. Coinciden en las fronteras y cambian de signo en $r=a\sqrt{13/2}\simeq2.55a$.
 :::
 ::::
 
